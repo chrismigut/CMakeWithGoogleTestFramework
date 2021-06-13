@@ -31,5 +31,22 @@
 *.out
 *.app
 
-# CMake
-*./build/
+# CMake files
+**/cmake-build-debug
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/install_manifest.txt
+**/CMakeFiles/
+**/CTestTestfile.cmake
+**/Makefile
+**/*.cbp
+**/CMakeScripts
+**/compile_commands.json
+
+# Dirs
+build/**/*
+
+include/*
+lib/*
+bin/*
+test/test_runner
